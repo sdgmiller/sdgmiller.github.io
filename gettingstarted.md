@@ -22,7 +22,7 @@ List all **gettingstarted** posts
 
 {% for category in site.categories %}
 {% if category[0] == 'gettingstarted' %}
-
+{% for post in category[1] %}
 
  <article class="post-preview">
    <a href="{{ post.url | prepend: site.baseurl }}">
@@ -70,6 +70,7 @@ List all **gettingstarted** posts
    {% endif %}
 
   </article>
+  {% endfor %}
  {% endif %}
  {% endfor %}
 
