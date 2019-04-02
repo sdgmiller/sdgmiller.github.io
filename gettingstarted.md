@@ -1,9 +1,9 @@
 # Getting started!!
 
-List all posts with the **gettingstarted** catergory 
+List all **gettingstarted** posts
 
 
-  ## second attempt
+## Using categories
   
 {% for category in site.categories %}
 {% if category[0] == 'gettingstarted' %}
@@ -16,8 +16,7 @@ List all posts with the **gettingstarted** catergory
 {% endif %}
 {% endfor %}
 
-## third attempt, this time using tags
-
+## Using tags
   
 {% for tag in site.tags %}
   {% if tag[0] == 'gettingstarted' %}
