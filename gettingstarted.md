@@ -1,4 +1,3 @@
-## Getting started
  
 <div class="posts-list">
 
