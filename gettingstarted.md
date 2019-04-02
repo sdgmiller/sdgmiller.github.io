@@ -1,10 +1,5 @@
-# Getting started!!
-
-List all **gettingstarted** posts
-
-
-## Using index page code
-  
+## Getting started
+ 
 <div class="posts-list">
 
 {% for category in site.categories %}
