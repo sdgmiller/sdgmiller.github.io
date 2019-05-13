@@ -106,11 +106,8 @@ img {
 }
 
 /* --- Navbar --- */
-.hover-col-green a:focus{
-   
+a.hover-col-green:hover{
   color: #00FF00;
-
-  
 }
 
 .navbar-custom {
