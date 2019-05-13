@@ -21,6 +21,14 @@ description: A virtual proof that name is awesome!
 
 # --- Navigation bar options --- #
 
+navbar-classes:
+  - hover-col: hover-col-red
+  - hover-col: hover-col-green
+  - hover-col: hover-col-blue
+  - hover-col: hover-col-red
+  - hover-col: hover-col-green
+  - hover-col: hover-col-blue
+
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
@@ -30,7 +38,6 @@ navbar-links:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-    class: "hover-color-1"
   Author's home: "http://deanattali.com"
   Alternate Tags page: "tags2"
 
