@@ -106,10 +106,10 @@ img {
 }
 
 /* --- Navbar --- */
-.hover-col-green {
-  a:focus {
+.hover-col-green a:focus{
+   
   color: #00FF00;
-}
+
   
 }
 
