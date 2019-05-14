@@ -106,10 +106,6 @@ img {
 }
 
 /* --- Navbar --- */
-.hover-col-green:hover,
-.hover-col-green:focus {
-  color: #00FF00;
-}
 
 .navbar-custom {
   background-color: {{ site.navbar-col }};
@@ -791,3 +787,9 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+.hover-col-green:hover,
+.hover-col-green:focus {
+  color: #00FF00;
+}
+
