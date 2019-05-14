@@ -41,7 +41,7 @@ navbar-classes:
             </div>
           </li>
         {% else %}
-          <li class="{{ site.navbar-classes[2].hover-col }}">
+          <li class="{{ site.navbar-classes[my_counter].hover-col }}">
             {% include navbarlink.html link=link %}
           </li>
         {% endif %}
