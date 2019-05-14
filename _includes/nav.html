@@ -39,7 +39,7 @@ navbar-classes:
             </div>
           </li>
         {% else %}
-          <li class="{{ site.navbar-classes[forloop.index-1].hover-col }}">
+          <li class="{{ site.navbar-classes[forloop.index0].hover-col }}">
             {% include navbarlink.html link=link %}
           </li>
         {% endif %}
