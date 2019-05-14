@@ -25,10 +25,11 @@ navbar-classes:
   - hover-col: hover-col-green
   - hover-col: hover-col-blue
 -->
+      
       {% for link in site.navbar-links %}
 	{% increment navlinkcount %}
         {% if link[1].first %}
-          <li class="navlinks-container {{ site.navbar-classess[0].hover-col }}">
+          <li class="navlinks-container {{ site.navbar-classess[navlinkcount].hover-col }}">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
             <div class="navlinks-children">
               {% for childlink in link[1] %}
