@@ -790,6 +790,6 @@ td.gutter {
 
 .hover-col-green:hover,
 .hover-col-green:focus {
-  color: #00FF00;
+  background-color: #00FF00;
 }
 
