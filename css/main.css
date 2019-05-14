@@ -138,11 +138,42 @@ img {
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
-.navbar-custom .nav  li.blue-hover a:hover,
-.navbar-custom .nav  li.blue-hover a:focus {
+.navbar-custom .nav  li.hover-col-blue a:hover,
+.navbar-custom .nav  li.hover-col-blue a:focus {
   color: #0000FF;
 }
 
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus ,
+.navbar-custom .nav  li.hover-col-green a:hover,
+.navbar-custom .nav  li.hover-col-green a:focus {
+  color: #00FF00;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus ,
+.navbar-custom .nav  li.hover-col-red a:hover,
+.navbar-custom .nav  li.hover-col-red a:focus {
+  color: #FF0000;
+}
+
+
+
+/*
+navbar-classes:
+
+  - hover-col: hover-col-red
+
+  - hover-col: hover-col-green
+
+  - hover-col: hover-col-blue
+
+  - hover-col: hover-col-red
+
+  - hover-col: hover-col-green
+
+  - hover-col: hover-col-blue
+*/
 
 
 .navbar-custom .navbar-brand-logo {
