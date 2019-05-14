@@ -39,7 +39,7 @@ navbar-classes:
             </div>
           </li>
         {% else %}
-          <li class="blue-hover">
+          <li {{ site.navbar-classess[0].hover-col }}>
             {% include navbarlink.html link=link %}
           </li>
         {% endif %}
