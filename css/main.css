@@ -138,8 +138,8 @@ img {
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
-.navbar-custom .nav li.blue-hover a:hover,
-.navbar-custom .nav li.blue-hover a:focus {
+.navbar-custom .nav .blue-hover li a:hover,
+.navbar-custom .nav .blue-hover li a:focus {
   color: #00FF00;
 }
 
