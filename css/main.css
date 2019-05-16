@@ -54,6 +54,7 @@ hr.tutorials {
   border-color: inherit;
   border-radius: 3px;
   color: #0000FF;
+  align: left;
 }
 
 .main-content {
