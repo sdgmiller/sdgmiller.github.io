@@ -1,6 +1,6 @@
 ---
 title: Getting started page 2
-categories: [gettingstarted]
+categories: [getting started]
 tags: [gettingstarted]
 ---
 
