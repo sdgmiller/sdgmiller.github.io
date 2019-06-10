@@ -33,6 +33,7 @@ navbar-classes:
 navbar-links:
   About Me: "aboutme"
   Gettting Started: "gettingstarted" 
+    - GettingStarted1: "2019-04-01-gettingstarted1"
   Tutorials: "tutorials"
     - Tutorial 2: "2019-04-01-tutorial2"
   Resources:
