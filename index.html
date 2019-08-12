@@ -20,8 +20,8 @@ use-site-title: true
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
-      {% if page.author %}
-      <br/>{% page.author %}
+      {% if post.author %}
+      <br/>{% post.author %}
       {% endif %}
     </p>
     <hr align="left" class="{{ post.categories.first | replace: " ", "" }}"/>
